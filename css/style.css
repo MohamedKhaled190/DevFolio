@@ -1,0 +1,290 @@
+:root{
+    --mainColor: #fff;
+    --secoundColor: #000;
+    --generalColor: #0078ff;
+    --hoverColor:#cfe2ff;
+}
+*{
+    list-style: none; 
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.bg-black{
+    background-color: var(--secoundColor);
+    opacity: 0.9;
+}
+/* header */
+header{
+    height: 100vh;
+    background-image:  linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)) ,url(../css/images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header h1{
+    font-size: 4rem;
+}
+header h1::after{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    animation: deladd 2s infinite;
+}
+/*freelancer */
+@keyframes deladd{
+    0%{ 
+        content: "fre|";
+    }
+    10% { 
+        content: "free|";
+    }
+    20%{ 
+        content: "freel|";
+    }
+    30%{ 
+        content: "freela|";
+    }
+    40%{ 
+        content: "freelac|";
+    }
+    50%{ 
+        content: "freelance|";
+    }
+    60%{ 
+        content: "freelacer|";
+    }
+    65%{ 
+        content: "freelacer|";
+    }
+    70%{ 
+        content: "freelace|";
+    }
+    80%{ 
+        content: "freelac|";
+    }
+    90%{ 
+        content: "freela|";
+    }
+    100%{ 
+        content: "freel|";
+    }
+}
+header p{
+    font-size: 2.5rem;
+}
+/* header */
+/* nav */
+nav{
+    z-index: 10000;
+}
+.navbar-brand, .navbar-nav .nav-link.active, .nav-link ,.main-color{
+    color:var(--mainColor);
+}
+.navbar-brand{
+    font-size: 28px;
+}
+.nav-link.active, .nav-link{
+position: relative;
+}
+.nav-link::after{
+content: "";
+position: absolute;
+width: 0px;
+height: 2px;
+background-color: var(--mainColor);
+bottom: 0px;
+left: 10px;
+transition: all 0.3s ;
+}
+.nav-link.active::after{
+width: 70%;
+}
+.nav-link:hover::after{
+    width: 70%;
+}
+.nav-link:hover{
+    color: var(--mainColor);
+}
+.navbar-brand:hover{
+    color: var(--mainColor);
+}
+.deep-dowm-ul{
+    background-color: var(--mainColor);
+    position: absolute;
+    top: 90%;
+    display: none;
+    transition: all 0.2s;
+    padding: 0px;
+    right: 140px;
+}
+.deep-dowm-ul li:hover{
+    color: var(--generalColor);
+}
+.deep-down:hover .deep-dowm-ul{
+    display: block;
+}
+
+/* nav */
+/* start about */
+.p-skill::after, .p-skill::before{
+    content: "";
+position: absolute;
+bottom: 10px;
+left: 0px;
+height: 10px;
+}
+.p-skill::before{
+    width: 100%;
+    background-color: #cfe2ff
+}
+.p-skill1::after{
+    width: 85%;
+    background-color: var(--generalColor)
+}
+.p-skill2::after{
+    width: 75%;
+    background-color: var(--generalColor)
+}
+.p-skill3::after{
+    width: 50%;
+    background-color: var(--generalColor)
+}
+.p-skill4::after{
+    width: 90%;
+    background-color: var(--generalColor)
+}
+
+/* end about */
+/* start service */
+#service h1{
+    font-size: 3rem;
+}
+.mainpara::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    top: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#service i{
+    border: solid 10px var(--generalColor);
+    width: 120px;
+    height: 120px;
+    color: var(--secoundColor);
+    font-size: 40px;
+    transition: all 0.3s;
+}
+#service .item:hover i{
+    border: solid 10px  var(--hoverColor);
+    background-color: var(--generalColor);
+    color: var(--mainColor);
+}
+/* end service */
+/* start statistics */
+.statistics{
+background-image: linear-gradient(rgba(0, 120,255,0.7),rgba(0, 120,255,0.7)) ,url(../css/images/post-3.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+.statistics i{
+    width: 80px;
+    height: 80px;
+    border: 10px solid var(--mainColor);
+    border-radius: 50%;
+    font-size: 20px;
+}
+/* end statistics */
+/* start potfolio */
+.portfolio-item:hover img{
+    transform: scale(1.5);
+}
+.portfolio-item img{
+    transition: all 0.5s;
+}
+#potfolio .icon{
+    width: 40px;
+    height: 40px;
+    border: solid 3px var(--generalColor);
+}
+#potfolio p{
+    font-size: 13px;
+}
+#potfolio span{
+    color: var(--generalColor);
+}
+/* end potfolio */
+/* start slider */
+.slider{
+background-image: linear-gradient(rgba(0, 120,255,0.7),rgba(0, 120,255,0.5)) ,url(../css/images/overlay-bg.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+/* end slider */
+/* start blog */
+#blog button{
+    background-color: var(--generalColor);
+    font-size: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    z-index: 1000;
+}
+.brif{
+    border: 1px solid #d2cece;    
+}
+/* end blog */
+/* start contant */
+#contant{
+background-image: linear-gradient(rgba(0, 120,255,0.7),rgba(0, 120,255,0.5)) ,url(../css/images/overlay-bg.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+.mesaage{
+    padding-bottom:5rem;
+}
+.contant-h2::after ,.about-h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100px;
+    background-color: var(--generalColor);
+    bottom: 35px;
+    left: 0px;
+}
+#contant li{
+    width: 50px;
+    height: 50px;
+border: 2px solid var(--generalColor);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.3s;
+}
+#contant li:hover {
+    background-color: var(--generalColor);
+}
+#contant li:hover i{
+    color: var(--mainColor);
+}
+/* end contant */
+/* footer */
+footer{
+    background-color: #0062d3;
+}
+
+

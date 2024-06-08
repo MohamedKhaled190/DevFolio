@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<!-- start Header -->
+<header>
+    <nav class="navbar navbar-expand-lg bg-black position-fixed w-100 ">
+        <div class="container">
+          <a class="navbar-brand fw-semibold" href="#">DevFolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-3 mb-lg-0 text-uppercase">
+              <li class="nav-item">
+                <a class="nav-link active fw-semibold mx-2 my-3" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold mx-2 my-3" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold mx-2 my-3" href="#service">service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold mx-2 my-3" href="#potfolio">work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold mx-2 my-3" href="#blog">blog</a>
+              </li>
+              <li class="nav-item deep-down">
+                <a class="nav-link fw-semibold mx-2 my-3 position-relative " href="#drop down">drop down <i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i></a>
+                <ul class="deep-dowm-ul rounded-2">
+                    <li class="px-3 py-1 fs-6 fw-medium">Drop Down1</li>
+                    <li class="px-3 py-1  fs-6 fw-medium">Drop Down2</li>
+                    <li class="px-3 py-1  fs-6 fw-medium">Drop Down3</li>
+                    <li class="px-3 py-1  fs-6 fw-medium">Drop Down4</li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold mx-2 my-3" href="#ontact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container h-100 text-center d-flex justify-content-center align-items-center">
+        <div class="content main-color">
+            <h1 class="fw-bolder my-4 pb-5 position-relative">I am Morgan Freeman</h1>
+          </div>
+    </div>
+</header>
+<!-- End Header -->
+<!-- start about -->
+<section id="about" class="py-5" >
+    <div class="container shadow p-5 mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-cv d-flex w-75 justify-content-between mb-3">
+                    <div class="cv-image mx-sm-3 mx-md-0"><img class="rounded-2" src="./css/images/testimonial-2.jpg" alt=""></div>
+                    <div class="cv-information">
+                        <p><strong>Name:</strong> Morgan Freeman</p>
+                        <p><strong>Profile:</strong> full stack developer</p>
+                        <p><strong>Email:</strong> contact@example.com</p>
+                        <p><strong>Phone:</strong> (617) 557-0089</p>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <p class="fw-bold mb-3">SKILL</p>
+                    <p class="pb-4 p-skill p-skill1 position-relative">HTML5 85%</p>
+                    <p class="pb-4 p-skill p-skill2 position-relative">CSS3 75%</p>
+                    <p class="pb-4 p-skill p-skill3 position-relative">PHP 50%</p>
+                    <p class="pb-4 p-skill p-skill4 position-relative">JAVA SCRIPT 90%</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="about-h2 position-relative pb-5">About me</h2>
+                <p class="fs-5 fw-light mb-3">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.</p>
+                <p class="fs-5 fw-light mb-3">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.</p>
+                <p class="fs-5 fw-light mb-3">Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end about -->
+<!-- start service -->
+<section id="service" class=" pt-5">
+    <div class="container">
+        <div class="content text-center mb-5">
+            <h1 class="fw-bold">SERVICES</h1>
+            <p class="position-relative mainpara">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+       <div class="items">
+        <div class="row ">
+            <div class="item col-md-4 mb-5">
+                <div class="content shadow rounded-4 p-4 text-center">
+                    <i class="fa-regular fa-envelope m-auto d-flex align-items-center justify-content-center rounded-circle mb-3" ></i>
+                    <h4 class="mb-3">WEB DESIGN</h4>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                </div>
+            </div>
+            <div class="item col-md-4 mb-5">
+                <div class="content shadow rounded-4 p-4 text-center">
+                    <i class="fa-regular fa-newspaper m-auto d-flex align-items-center justify-content-center rounded-circle mb-3" ></i>
+                    <h3 class="mb-3">WEB DEVELOPMENT</h3>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                </div>
+            </div>
+            <div class="item col-md-4 mb-5">
+                <div class="content shadow rounded-4 p-4 text-center">
+                    <i class="fa-solid fa-signal m-auto d-flex align-items-center justify-content-center rounded-circle mb-3" ></i>
+                    <h3 class="mb-3">PHOTOGRAPHY</h3>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                </div>
+            </div>
+    </div>
+        <div class="row ">
+            <div class="item col-md-4 mb-5">
+                <div class="content shadow rounded-4 p-4 text-center">
+                    <i class="fa-solid fa-video m-auto d-flex align-items-center justify-content-center rounded-circle mb-3" ></i>
+                    <h3 class="mb-3">RESPONSIVE DESIGN</h3>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                </div>
+            </div>
+            <div class="item col-md-4 mb-5">
+                <div class="content shadow rounded-4 p-4 text-center">
+                    <i class="fa-regular fa-sun m-auto d-flex align-items-center justify-content-center rounded-circle mb-3" ></i>
+                    <h3 class="mb-3">GRAPHIC DESIGN</h3>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                </div>
+            </div>
+            <div class="item col-md-4 mb-5">
+                <div class="content shadow rounded-4 p-4 text-center">
+                    <i class="fa-solid fa-calendar-days m-auto d-flex align-items-center justify-content-center rounded-circle mb-3" ></i>
+                    <h3 class="mb-3">MARKETING SERVICES</h3>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                </div>
+            </div>
+    </div>
+       </div>
+</section>
+<!-- end service -->
+<!-- start statistics -->
+<div class="statistics py-5 text-light">
+    <div class="container py-4">
+        <div class="row text-center py-5 ">
+            <div class="col-md">
+                <i class="fa-solid fa-check mb-2 m-auto d-flex align-items-center justify-content-center" style="color: #ffffff;"></i>
+                <h3>450</h3>
+                <p>WORKS COMPLETED</p>
+            </div>
+            <div class="col-md"><i class="fa-regular fa-message mb-2 m-auto d-flex align-items-center justify-content-center"></i>
+                <h3>250</h3>
+                <p>YEARS OF EXPERIENCE</p>
+            </div>
+            <div class="col-md"><i class="fa-regular fa-user mb-2 m-auto d-flex align-items-center justify-content-center"></i>
+                <h3>550</h3>
+                <p>YEARS OF EXPERIENCE</p>
+            </div>
+            <div class="col-md"><i class="fa-solid fa-medal mb-2 m-auto d-flex align-items-center justify-content-center"></i>
+                <h3>43</h3>
+                <p>AWARD WON</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end statistics -->
+<!-- start potfolio -->
+<section id="potfolio" class="pt-5">
+    <div class="container">
+        <div class="content text-center mb-5">
+            <h1 class="fw-bold">PORTFOLIO</h1>
+            <p class="position-relative mainpara">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+            <div class="row">
+                <div class="item col-md-4 mb-4">
+                    <div class="portfolio-item shadow">
+                        <div class="portfolio-image w-100 overflow-hidden">
+                            <img class="w-100" src="./css/images/work-1.jpg" alt="">
+                        </div>
+                        <div class="portfolio-content py-4 px-2 row align-items-center">
+                            <div class="h4-p col-10">
+                                <h4>Lorem impsum dolor</h4>
+                                <p><span>Web Design</span> / 18 Sep. 2018</p>
+                            </div>
+                            <div class="icon col-2 d-flex align-items-center justify-content-center rounded-circle">
+                                <i class="fa-solid fa-plus" style="color: #0078ff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4 mb-4">
+                    <div class="portfolio-item shadow">
+                        <div class="portfolio-image w-100 overflow-hidden">
+                            <img class="w-100" src="./css/images/work-2.jpg" alt="">
+                        </div>
+                        <div class="portfolio-content py-4 px-2 row align-items-center">
+                            <div class="h4-p col-10">
+                                <h4>Lorem impsum dolor</h4>
+                                <p><span>Web Design</span> / 18 Sep. 2018</p>
+                            </div>
+                            <div class="icon col-2 d-flex align-items-center justify-content-center rounded-circle">
+                                <i class="fa-solid fa-plus" style="color: #0078ff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4 mb-4">
+                    <div class="portfolio-item shadow">
+                        <div class="portfolio-image w-100 overflow-hidden">
+                            <img class="w-100" src="./css/images/work-3.jpg" alt="">
+                        </div>
+                        <div class="portfolio-content py-4 px-2 row align-items-center ">
+                            <div class="h4-p col-10">
+                                <h4>Lorem impsum dolor</h4>
+                                <p><span>Web Design</span> / 18 Sep. 2018</p>
+                            </div>
+                            <div class="icon col-2 d-flex align-items-center rounded-circle justify-content-center">
+                                <i class="fa-solid fa-plus" style="color: #0078ff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="row">
+                <div class="item col-md-4 mb-4">
+                    <div class="portfolio-item shadow">
+                        <div class="portfolio-image w-100 overflow-hidden">
+                            <img class="w-100" src="./css/images/work-4.jpg" alt="">
+                        </div>
+                        <div class="portfolio-content py-4 px-2 row align-items-center">
+                            <div class="h4-p col-10">
+                                <h4>Lorem impsum dolor</h4>
+                                <p><span>Web Design</span> / 18 Sep. 2018</p>
+                            </div>
+                            <div class="icon col-2 d-flex align-items-center justify-content-center rounded-circle">
+                                <i class="fa-solid fa-plus" style="color: #0078ff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4 mb-4">
+                    <div class="portfolio-item shadow">
+                        <div class="portfolio-image w-100 overflow-hidden">
+                            <img class="w-100" src="./css/images/work-5.jpg" alt="">
+                        </div>
+                        <div class="portfolio-content py-4 px-2 row align-items-center">
+                            <div class="h4-p col-10">
+                                <h4>Lorem impsum dolor</h3>
+                                <p><span>Web Design</span> / 18 Sep. 2018</p>
+                            </div>
+                            <div class="icon col-2 d-flex align-items-center justify-content-center rounded-circle">
+                                <i class="fa-solid fa-plus" style="color: #0078ff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4 mb-4">
+                    <div class="portfolio-item shadow">
+                        <div class="portfolio-image w-100 overflow-hidden">
+                            <img class="w-100" src="./css/images/work-6.jpg" alt="">
+                        </div>
+                        <div class="portfolio-content py-4 px-2 row align-items-center">
+                            <div class="h4-p col-10">
+                                <h4>Lorem impsum dolor</h4>
+                                <p><span>Web Design</span> / 18 Sep. 2018</p>
+                            </div>
+                            <div class="icon col-2 d-flex align-items-center rounded-circle justify-content-center">
+                                <i class="fa-solid fa-plus" style="color: #0078ff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+<!-- end potfolio -->
+<!-- start slider -->
+<div class="slider py-5 text-center">
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="slider-item py-5 text-light">
+                <div class="slider-image mb-2">
+                    <img src="./css/images/testimonial-2.jpg" class="rounded-circle" alt="">
+                </div>
+                <div class="slider-content">
+                    <h4 class="mb-3">ahmed mohaemd</h4>
+                    <p class="">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slider-item py-5 text-light">
+                <div class="slider-image mb-2">
+                    <img src="./css/images/testimonial-4.jpg" class="rounded-circle" alt="">
+                </div>
+                <div class="slider-content">
+                    <h4 class="mb-3">sara mohaemd</h4>
+                    <p class="">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+                </div>
+            </div>
+          </div>
+      </div>
+</div>
+</div>
+<!-- end slider -->
+<!-- start blog -->
+<section id="blog" class="py-5">
+    <div class="container">
+        <div class="content text-center mb-5">
+            <h1 class="fw-bold">BLOG</h1>
+            <p class="position-relative mainpara">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row">
+            <div class="item col-md-4 mb-4 ">
+                <div class="blog-item shadow ">
+                    <div class="blog-image w-100  position-relative">
+                        <img class="w-100" src="./css/images/work-1.jpg" alt="">
+                        <button class="text-decoration-none rounded-2 py-1 px-2 text-light border-0 position-absolute">WEB DESIGN</button>
+                    </div> 
+                    <div class="  px-3 row  ">
+                      <div class="blog-content  border-2 py-3">
+                        <h4>See more ideas about Travel</h4>
+                        <p>Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="brif p-2">
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <div class="brif-imag">
+                                            <img src="./css/images/testimonial-2.jpg" class="w-100 rounded-circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 ">
+                                        <p class="mb-0">Morgan</p>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-regular fa-clock"></i>
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="mb-0">10 min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                     </div>
+             </div>
+            <div class="item col-md-4 mb-4 ">
+                <div class="blog-item shadow ">
+                    <div class="blog-image w-100  position-relative">
+                        <img class="w-100" src="./css/images/work-2.jpg" alt="">
+                        <button class="text-decoration-none rounded-2 py-1 px-2 text-light border-0 position-absolute">WEB DESIGN</button>
+                    </div> 
+                    <div class="  px-3 row  ">
+                      <div class="blog-content  border-2 py-3">
+                        <h4>See more ideas about Travel</h4>
+                        <p>Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="brif p-2">
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <div class="brif-imag">
+                                            <img src="./css/images/testimonial-2.jpg" class="w-100 rounded-circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 ">
+                                        <p class="mb-0">Morgan</p>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-regular fa-clock"></i>
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="mb-0">10 min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                     </div>
+             </div>
+            <div class="item col-md-4 mb-4 ">
+                <div class="blog-item shadow ">
+                    <div class="blog-image w-100  position-relative">
+                        <img class="w-100" src="./css/images/work-3.jpg" alt="">
+                        <button class="text-decoration-none rounded-2 py-1 px-2 text-light border-0 position-absolute">WEB DESIGN</button>
+                    </div> 
+                    <div class="  px-3 row  ">
+                      <div class="blog-content  border-2 py-3">
+                        <h4>See more ideas about Travel</h4>
+                        <p>Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="brif p-2">
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <div class="brif-imag">
+                                            <img src="./css/images/testimonial-2.jpg" class="w-100 rounded-circle" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 ">
+                                        <p class="mb-0">Morgan</p>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-regular fa-clock"></i>
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="mb-0">10 min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                     </div>
+             </div>
+                </div>
+            </div>
+
+    </div>
+    </div>
+</section>
+<!-- end blog -->
+<!-- start contact -->
+<section id="contant" class="py-5 shadow" >
+    <div class="container p-5 bg-light">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="pb-5 contant-h2 position-relative">Send Message Us</h2>
+                <form action="">
+                    <div class="mb-3">
+                      <input type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                      <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control mesaage rounded-0" id="exampleInputPassword1" placeholder="Message">
+                    </div>
+                    <div class="submit-btn text-center">
+                        <button type="submit" class="btn btn-primary rounded-5 py-2 px-3" >Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2 class="pb-5 contant-h2 position-relative">Get in Touch</h2>
+                <p class="fs-5 fw-light mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+                <p><i class="fa-solid fa-location-dot" style="color: #0078ff;"></i> 329 WASHINGTON ST BOSTON, MA 02108</p>
+                <p><i class="fa-solid fa-mobile-screen-button" style="color: #0078ff;"></i> (617) 557-0089</p>
+                <p><i class="fa-regular fa-envelope"  style="color: #0078ff;"></i> contact@example.com</p>
+                <ul class="d-flex justify-content-between w-50">
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end contact -->
+<!-- start footer -->
+<footer class="py-3 text-center text-light">
+<p>© Copyright DevFolio. All Rights Reserved</p>
+<p>Designed by BootstrapMade</p>
+</footer>
+<!-- end footer -->
+</body>
+</html>
